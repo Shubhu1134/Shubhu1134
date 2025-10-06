@@ -57,3 +57,5 @@ Here are some ideas to get you started:
 
 ## 🌐 Connect With Me  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubham-lodhi-99a597216/)  
+
+-- contact email -> shubhu1134@gmail.com 
