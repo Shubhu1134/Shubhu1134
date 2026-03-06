@@ -103,6 +103,12 @@
 - Improve DevOps, CI/CD, and cloud deployment depth
 - Publish technical notes for Java, MERN, and AI engineering
 
+## Execution System
+- Weekly sprint playbook: [ACHIEVEMENT_SPRINT.md](./ACHIEVEMENT_SPRINT.md)
+- Contribution workflow: [CONTRIBUTING.md](./CONTRIBUTING.md)
+- Auto sprint issue generator: [weekly-achievement-sprint.yml](./.github/workflows/weekly-achievement-sprint.yml)
+- PR standard: [PULL_REQUEST_TEMPLATE.md](./.github/PULL_REQUEST_TEMPLATE.md)
+
 ## Connect
 - LinkedIn: [shubham-lodhi-99a597216](https://www.linkedin.com/in/shubham-lodhi-99a597216/)
 - Email: [shubhu1134@gmail.com](mailto:shubhu1134@gmail.com)

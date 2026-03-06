@@ -1,0 +1,32 @@
+name: Weekly Review
+description: Track what was shipped this week and plan next week
+title: "[Weekly Review] "
+labels: ["achievement-sprint"]
+body:
+  - type: textarea
+    id: shipped
+    attributes:
+      label: Shipped this week
+      placeholder: |
+        - PRs merged:
+        - Issues closed:
+        - External contributions:
+    validations:
+      required: true
+  - type: textarea
+    id: blockers
+    attributes:
+      label: Blockers
+      placeholder: What slowed you down?
+    validations:
+      required: false
+  - type: textarea
+    id: next_week
+    attributes:
+      label: Next week plan
+      placeholder: |
+        - 5 merge targets
+        - 1 external PR
+        - 1 CI/CD upgrade
+    validations:
+      required: true

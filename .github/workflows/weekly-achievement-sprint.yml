@@ -1,0 +1,91 @@
+name: Weekly Achievement Sprint
+
+on:
+  schedule:
+    - cron: "30 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  create-weekly-sprint-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create sprint issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+
+            const start = new Date();
+            const end = new Date(start);
+            end.setUTCDate(start.getUTCDate() + 6);
+
+            const startISO = start.toISOString().slice(0, 10);
+            const endISO = end.toISOString().slice(0, 10);
+            const title = `Achievement Sprint: ${startISO} to ${endISO}`;
+
+            const openIssues = await github.paginate(github.rest.issues.listForRepo, {
+              owner,
+              repo,
+              state: "open",
+              labels: "achievement-sprint",
+              per_page: 100
+            });
+
+            if (openIssues.find((i) => i.title === title)) {
+              console.log(`Issue already exists: ${title}`);
+              return;
+            }
+
+            try {
+              await github.rest.issues.getLabel({
+                owner,
+                repo,
+                name: "achievement-sprint"
+              });
+            } catch (error) {
+              await github.rest.issues.createLabel({
+                owner,
+                repo,
+                name: "achievement-sprint",
+                color: "1d76db",
+                description: "Weekly execution and achievement tracking"
+              });
+            }
+
+            const body = [
+              `## Weekly Sprint (${startISO} to ${endISO})`,
+              "",
+              "### Targets",
+              "- [ ] Merge 5 PRs",
+              "- [ ] Close 3 issues linked to PRs",
+              "- [ ] Submit 1 external contribution PR",
+              "- [ ] Do 2 meaningful PR reviews/comments",
+              "- [ ] Ship 1 CI/CD or VPS improvement",
+              "",
+              "### Daily Log",
+              "- [ ] Day 1 progress",
+              "- [ ] Day 2 progress",
+              "- [ ] Day 3 progress",
+              "- [ ] Day 4 progress",
+              "- [ ] Day 5 progress",
+              "- [ ] Day 6 progress",
+              "- [ ] Day 7 review",
+              "",
+              "### Links",
+              "- Sprint playbook: `ACHIEVEMENT_SPRINT.md`",
+              "- Contribution guide: `CONTRIBUTING.md`",
+              "- PR template: `.github/PULL_REQUEST_TEMPLATE.md`"
+            ].join("\n");
+
+            await github.rest.issues.create({
+              owner,
+              repo,
+              title,
+              body,
+              labels: ["achievement-sprint"]
+            });
