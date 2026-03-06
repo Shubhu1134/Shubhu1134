@@ -26,37 +26,46 @@
 - Learning LLM engineering, deep learning systems, and scalable backend design
 - Interested in open-source collaboration and high-impact product development
 - Writing clean, deployable code with strong fundamentals
+- Running and managing self-hosted VPS workflows for deployment and automation
 
 ## Tech Stack
 <p>
   <img src="https://skillicons.dev/icons?i=java,js,ts,react,nodejs,express,mongodb,python,tensorflow,docker,git,github,vscode" alt="Tech stack icons" />
 </p>
 
+## DevOps and Infrastructure
+<p>
+  <img src="https://img.shields.io/badge/VPS-Self%20Hosted-0f766e?style=for-the-badge&logo=linux&logoColor=white" alt="VPS self hosted" />
+  <img src="https://img.shields.io/badge/Docker-Containers-0ea5e9?style=for-the-badge&logo=docker&logoColor=white" alt="Docker containers" />
+  <img src="https://img.shields.io/badge/CI%2FCD-Automated-2563eb?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI CD automated" />
+  <img src="https://img.shields.io/badge/Deployments-Production%20Ready-f59e0b?style=for-the-badge&logo=nginx&logoColor=white" alt="Production deployments" />
+</p>
+
 ## Featured Projects
 <p align="center">
   <a href="https://github.com/Shubhu1134/WebDevelopment">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Shubhu1134&repo=WebDevelopment&theme=tokyonight&hide_border=true" alt="WebDevelopment repo card" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Shubhu1134&repo=WebDevelopment&theme=tokyonight&hide_border=true" alt="WebDevelopment repo card" />
   </a>
   <a href="https://github.com/Shubhu1134/Advance-java-code-">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Shubhu1134&repo=Advance-java-code-&theme=tokyonight&hide_border=true" alt="Advance java repo card" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Shubhu1134&repo=Advance-java-code-&theme=tokyonight&hide_border=true" alt="Advance java repo card" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/Shubhu1134/docker-deploye-architecture">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Shubhu1134&repo=docker-deploye-architecture&theme=tokyonight&hide_border=true" alt="Docker deploy architecture repo card" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Shubhu1134&repo=docker-deploye-architecture&theme=tokyonight&hide_border=true" alt="Docker deploy architecture repo card" />
   </a>
   <a href="https://github.com/Shubhu1134/skill-swap">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Shubhu1134&repo=skill-swap&theme=tokyonight&hide_border=true" alt="Skill swap repo card" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Shubhu1134&repo=skill-swap&theme=tokyonight&hide_border=true" alt="Skill swap repo card" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/Shubhu1134/food-delivery-app">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Shubhu1134&repo=food-delivery-app&theme=tokyonight&hide_border=true" alt="Food delivery app repo card" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Shubhu1134&repo=food-delivery-app&theme=tokyonight&hide_border=true" alt="Food delivery app repo card" />
   </a>
   <a href="https://github.com/Shubhu1134/Team-Practice-Java-Projects">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Shubhu1134&repo=Team-Practice-Java-Projects&theme=tokyonight&hide_border=true" alt="Team practice java projects repo card" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Shubhu1134&repo=Team-Practice-Java-Projects&theme=tokyonight&hide_border=true" alt="Team practice java projects repo card" />
   </a>
 </p>
 
@@ -72,8 +81,8 @@
 
 ## GitHub Analytics
 <p>
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Shubhu1134&show_icons=true&theme=tokyonight&rank_icon=github&hide_border=true" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shubhu1134&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Shubhu1134&show_icons=true&theme=tokyonight&rank_icon=github&hide_border=true" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Shubhu1134&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
 </p>
 
 <p>
@@ -81,7 +90,11 @@
 </p>
 
 <p>
-  <img src="https://github-profile-trophy.vercel.app/?username=Shubhu1134&theme=algolia&no-frame=true&margin-w=8&margin-h=8" alt="GitHub trophies" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Shubhu1134&theme=tokyonight" alt="GitHub summary stats card" />
+</p>
+
+<p>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shubhu1134&theme=tokyo-night&hide_border=true" alt="GitHub activity graph" />
 </p>
 
 ## 2026 Build Goals
