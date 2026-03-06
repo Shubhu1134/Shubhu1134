@@ -108,6 +108,7 @@
 - Contribution workflow: [CONTRIBUTING.md](./CONTRIBUTING.md)
 - Auto sprint issue generator: [weekly-achievement-sprint.yml](./.github/workflows/weekly-achievement-sprint.yml)
 - PR standard: [PULL_REQUEST_TEMPLATE.md](./.github/PULL_REQUEST_TEMPLATE.md)
+- Public repo priority map: [REPO_ACCELERATION_PLAN.md](./REPO_ACCELERATION_PLAN.md)
 
 ## Connect
 - LinkedIn: [shubham-lodhi-99a597216](https://www.linkedin.com/in/shubham-lodhi-99a597216/)
