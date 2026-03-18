@@ -104,6 +104,7 @@
 - Publish technical notes for Java, MERN, and AI engineering
 
 ## Execution System
+- Maximum achievement board: [ACHIEVEMENT_EXECUTION_BOARD.md](./ACHIEVEMENT_EXECUTION_BOARD.md)
 - Weekly sprint playbook: [ACHIEVEMENT_SPRINT.md](./ACHIEVEMENT_SPRINT.md)
 - Contribution workflow: [CONTRIBUTING.md](./CONTRIBUTING.md)
 - Auto sprint issue generator: [weekly-achievement-sprint.yml](./.github/workflows/weekly-achievement-sprint.yml)
