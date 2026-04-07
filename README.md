@@ -111,6 +111,12 @@
 - PR standard: [PULL_REQUEST_TEMPLATE.md](./.github/PULL_REQUEST_TEMPLATE.md)
 - Public repo priority map: [REPO_ACCELERATION_PLAN.md](./REPO_ACCELERATION_PLAN.md)
 
+## Current Operating Loop
+- Monday: use the weekly sprint issue to set repo order and first actions
+- Midweek: aim to land one `docs`, one `fix`, and one `feat`, `chore`, or `ci` PR
+- End of week: log merged PRs, reviews, and external contribution progress before the next sprint starts
+- Active work lives in the sprint issue queue: [Repository Issues](https://github.com/Shubhu1134/Shubhu1134/issues)
+
 ## Connect
 - LinkedIn: [shubham-lodhi-99a597216](https://www.linkedin.com/in/shubham-lodhi-99a597216/)
 - Email: [shubhu1134@gmail.com](mailto:shubhu1134@gmail.com)
