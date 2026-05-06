@@ -2,6 +2,35 @@
 
 This is the working board for `Shubhu1134`. Use it to turn public GitHub activity into visible momentum without wasting time deciding what to do next.
 
+Last reviewed: `2026-05-06`
+
+## Active Sprint Context
+- Current visible sprint from GitHub notifications: `2026-05-04` to `2026-05-10`
+- Sprint issue pattern is working: weekly issues are being created and kept visible in the repo inbox
+- Current interpretation: this repo is the control center, while execution work should spill into the priority public repos listed below
+- First objective for the active sprint: complete one clean `docs` improvement in `Shubhu1134`, then move immediately into `WebDevelopment` and `Advance-java-code-`
+
+## Current Sprint Execution Order
+1. `Shubhu1134`
+   Outcome: refresh profile repo execution links, keep the sprint system visible, and merge one focused docs or automation improvement
+2. `WebDevelopment`
+   Outcome: ship one README cleanup, setup fix, or navigation improvement that can merge fast
+3. `Advance-java-code-`
+   Outcome: add one Java topic index, example, or module cleanup PR
+4. `docker-deploye-architecture`
+   Outcome: add one production checklist, deployment note, or operations improvement
+5. one external public repository
+   Outcome: open one small contribution PR for collaboration visibility
+
+## Current Sprint Definition of Done
+- `1` merged PR in `Shubhu1134`
+- `1` merged PR in `WebDevelopment`
+- `1` merged PR in `Advance-java-code-`
+- `1` more merged PR in any priority repo
+- `1` external PR opened
+- `2` useful review or discussion contributions logged in the weekly sprint issue
+- `1` discussion answer
+
 ## Snapshot as of 2026-03-18
 - Source: public GitHub repository data for `Shubhu1134`
 - Public non-fork repositories: `23`
@@ -40,6 +69,33 @@ Use Tier 3 when you want to create foundational content. Use Tier 1 and Tier 2 w
 - One external contribution PR every week
 - One useful review/comment block every week
 - One discussion answer every week
+
+## Why A Lot of Work May Still Not Show
+- GitHub achievements are event-based, not a reward for all activity
+- Many direct pushes, long private work, or repo cleanup can help your graph but still not unlock achievements
+- GitHub intentionally does not publish every exact achievement rule
+- Some profile and contribution data can take time to refresh after the triggering action
+- Achievements can be hidden if profile achievement display is turned off
+- Achievements do not transfer between different GitHub accounts
+
+## What To Verify Before You Expect Credit
+- Keep using a Git email that is connected to your GitHub account; this repo is currently using `shubhu1134@gmail.com`
+- Prefer public standalone repositories over private repos and forks when you want visible momentum
+- Make sure commits land on the default branch through a PR when possible
+- Use issue -> branch -> PR -> merge instead of direct pushes to `main`
+- Recheck the profile the next day before assuming the action did not count
+
+## Fastest Legitimate Paths To More Achievements
+- Public merged pull requests are still the strongest repeatable path
+- Helpful discussion answers are high leverage because discussion activity is specifically called out by GitHub
+- Small collaborative PRs with co-authored work are worth doing when the collaboration is real
+- Sponsoring a developer is a separate path if you want that badge category
+- Historical or event-based badges are not good targets because you cannot reliably trigger them now
+
+## Practical Rule For Your Account
+- Do not measure success only by green squares
+- Measure by public merged PRs, linked issues closed, accepted discussion answers, and visible collaboration
+- If an action does not create a public event that another person can review, it is less likely to help achievements
 
 ## Work That Slows You Down
 - Direct pushes to `main`

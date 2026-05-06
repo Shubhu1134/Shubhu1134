@@ -22,11 +22,10 @@
 </p>
 
 ## About Me
-- Building AI agents, MERN applications, and practical automation workflows
-- Learning LLM engineering, deep learning systems, and scalable backend design
-- Interested in open-source collaboration and high-impact product development
-- Writing clean, deployable code with strong fundamentals
-- Running and managing self-hosted VPS workflows for deployment and automation
+- Full-stack developer focused on AI agents, MERN applications, and automation workflows
+- Building production-ready systems with clean architecture and reliable deployment practices
+- Actively contributing to open source and practical developer tooling
+- Strengthening depth in LLM engineering and scalable backend design
 
 ## Tech Stack
 <p>
@@ -69,16 +68,6 @@
   </a>
 </p>
 
-## GitHub Badges and Achievements
-<p>
-  <img src="https://img.shields.io/badge/Open%20Source-Active-16a34a?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="Open source active" />
-  <img src="https://img.shields.io/badge/Focus-AI%20%2B%20MERN-2563eb?style=for-the-badge&logo=githubactions&logoColor=white" alt="Focus AI and MERN" />
-  <img src="https://img.shields.io/badge/Status-Building%20Daily-f59e0b?style=for-the-badge&logo=clockify&logoColor=white" alt="Building daily" />
-</p>
-
-- Official GitHub achievement badges are shown on your profile achievements tab: [View Achievements](https://github.com/Shubhu1134?tab=achievements)
-- README badges above are custom showcase badges and always visible on this page
-
 ## GitHub Analytics
 <p>
   <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Shubhu1134&show_icons=true&theme=tokyonight&rank_icon=github&hide_border=true" alt="GitHub stats" />
@@ -87,14 +76,6 @@
 
 <p>
   <img src="https://streak-stats.demolab.com?user=Shubhu1134&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-</p>
-
-<p>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Shubhu1134&theme=tokyonight" alt="GitHub summary stats card" />
-</p>
-
-<p>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shubhu1134&theme=tokyo-night&hide_border=true" alt="GitHub activity graph" />
 </p>
 
 ## 2026 Build Goals
@@ -120,4 +101,3 @@
 ## Connect
 - LinkedIn: [shubham-lodhi-99a597216](https://www.linkedin.com/in/shubham-lodhi-99a597216/)
 - Email: [shubhu1134@gmail.com](mailto:shubhu1134@gmail.com)
-- Email: [hukamthakur9981@gmail.com](mailto:hukamthakur9981@gmail.com)

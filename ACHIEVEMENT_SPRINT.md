@@ -16,6 +16,20 @@ Use this system every week to build visible GitHub momentum fast.
 4. Merge and close issue.
 5. Log outcome in weekly sprint issue.
 
+## Weekly Repo Order
+1. `Shubhu1134` for visible profile and system upkeep
+2. `WebDevelopment` for fast docs and fix PRs
+3. `Advance-java-code-` for structured Java examples and notes
+4. `docker-deploye-architecture` for DevOps and deployment signal
+5. one external public repo for collaboration proof
+
+## Sprint Issue Operating Rule
+- Treat the Monday sprint issue as the execution log for the whole week
+- Add every merged PR link back into that issue
+- Keep at least one `docs`, one `fix`, and one `feat`, `chore`, or `ci` change in flight each week
+- If you miss one day, do not restart the plan; continue from the next highest-priority repo
+- Close the week with a review issue or weekly summary before the next sprint starts
+
 ## High-Leverage Repo Types
 - Active public repos where you can submit small fixes quickly
 - Your own repos with clear issue/PR workflow
