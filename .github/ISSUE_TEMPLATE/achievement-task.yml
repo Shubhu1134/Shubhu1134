@@ -41,3 +41,14 @@ body:
         - Issue closed
     validations:
       required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation plan
+      description: Commands, checks, or review steps that prove the change is done
+      placeholder: |
+        - Run repo-health workflow
+        - Check affected README links
+        - Verify workflow syntax in GitHub Actions
+    validations:
+      required: false

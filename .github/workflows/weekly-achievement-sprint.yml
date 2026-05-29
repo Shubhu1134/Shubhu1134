@@ -2,17 +2,22 @@ name: Weekly Achievement Sprint
 
 on:
   schedule:
-    - cron: "00 09 * * 1"
-      timezone: "Asia/Kolkata"
+    # GitHub Actions cron runs in UTC. 03:30 UTC is 09:00 IST.
+    - cron: "30 03 * * 1"
   workflow_dispatch:
 
 permissions:
   contents: read
   issues: write
 
+concurrency:
+  group: weekly-achievement-sprint-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   create-weekly-sprint-issue:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Create sprint issue
         uses: actions/github-script@v7
@@ -21,8 +26,10 @@ jobs:
             const owner = context.repo.owner;
             const repo = context.repo.repo;
 
+            const IST_OFFSET_MS = 5.5 * 60 * 60 * 1000;
             const now = new Date();
-            const start = new Date(now);
+            const istToday = new Date(now.getTime() + IST_OFFSET_MS);
+            const start = new Date(istToday);
             const day = start.getUTCDay();
             const diffToMonday = day === 0 ? -6 : 1 - day;
             start.setUTCDate(start.getUTCDate() + diffToMonday);
@@ -55,6 +62,10 @@ jobs:
                 name: "achievement-sprint"
               });
             } catch (error) {
+              if (error.status !== 404) {
+                throw error;
+              }
+
               await github.rest.issues.createLabel({
                 owner,
                 repo,
@@ -87,6 +98,16 @@ jobs:
               "- [ ] Ship one fast cleanup or setup fix in `WebDevelopment`",
               "- [ ] Ship one topic index, example, or docs improvement in `Advance-java-code-`",
               "",
+              "### Scorecard",
+              "| Signal | Target | Current |",
+              "| --- | --- | --- |",
+              "| Merged PRs | 5 | 0 |",
+              "| Closed linked issues | 3 | 0 |",
+              "| External contribution PRs | 1 | 0 |",
+              "| Reviews/comments | 2 | 0 |",
+              "| Discussion answers | 1 | 0 |",
+              "| DevOps improvements | 1 | 0 |",
+              "",
               "### Minimum Merge Mix",
               "- [ ] 1 `docs` PR",
               "- [ ] 1 `fix` PR",
@@ -100,6 +121,12 @@ jobs:
               "- [ ] Day 5 progress",
               "- [ ] Day 6 progress",
               "- [ ] Day 7 review",
+              "",
+              "### Weekly Review Prompts",
+              "- What shipped?",
+              "- What blocked speed?",
+              "- Which repo should start next week?",
+              "- Which reusable checklist or template should be extracted?",
               "",
               "### Links",
               "- Execution board: `ACHIEVEMENT_EXECUTION_BOARD.md`",

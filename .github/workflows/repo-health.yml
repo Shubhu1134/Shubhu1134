@@ -1,0 +1,81 @@
+name: Repo Health
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  profile-repo-health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check required files and local Markdown links
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require("fs");
+            const path = require("path");
+
+            const requiredFiles = [
+              "README.md",
+              "CONTRIBUTING.md",
+              "ACHIEVEMENT_EXECUTION_BOARD.md",
+              "ACHIEVEMENT_SPRINT.md",
+              "REPO_ACCELERATION_PLAN.md",
+              "SECURITY.md",
+              ".github/CODEOWNERS",
+              ".github/PULL_REQUEST_TEMPLATE.md",
+              ".github/workflows/weekly-achievement-sprint.yml",
+              ".github/workflows/repo-health.yml"
+            ];
+
+            const missing = requiredFiles.filter((file) => !fs.existsSync(file));
+            if (missing.length) {
+              core.setFailed(`Missing required files: ${missing.join(", ")}`);
+              return;
+            }
+
+            const markdownFiles = requiredFiles.filter((file) => file.endsWith(".md"));
+            const brokenLinks = [];
+            const linkPattern = /\[[^\]]+\]\(([^)]+)\)/g;
+
+            for (const file of markdownFiles) {
+              const content = fs.readFileSync(file, "utf8");
+              for (const match of content.matchAll(linkPattern)) {
+                const rawTarget = match[1].trim();
+                if (
+                  rawTarget.startsWith("http://") ||
+                  rawTarget.startsWith("https://") ||
+                  rawTarget.startsWith("mailto:") ||
+                  rawTarget.startsWith("#")
+                ) {
+                  continue;
+                }
+
+                const cleanTarget = rawTarget.split("#")[0].split("?")[0];
+                if (!cleanTarget) {
+                  continue;
+                }
+
+                const absoluteTarget = path.resolve(path.dirname(file), cleanTarget);
+                if (!fs.existsSync(absoluteTarget)) {
+                  brokenLinks.push(`${file} -> ${rawTarget}`);
+                }
+              }
+            }
+
+            if (brokenLinks.length) {
+              core.setFailed(`Broken local Markdown links:\n${brokenLinks.join("\n")}`);
+              return;
+            }
+
+            core.info("Repo health checks passed.");

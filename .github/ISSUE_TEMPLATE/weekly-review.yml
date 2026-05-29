@@ -21,6 +21,18 @@ body:
     validations:
       required: false
   - type: textarea
+    id: scorecard
+    attributes:
+      label: Scorecard
+      placeholder: |
+        - Merged PRs:
+        - Closed issues:
+        - Reviews/comments:
+        - Discussion answers:
+        - External PRs:
+    validations:
+      required: false
+  - type: textarea
     id: next_week
     attributes:
       label: Next week plan
