@@ -2,13 +2,14 @@
 
 This is the working board for `Shubhu1134`. Use it to turn public GitHub activity into visible momentum without wasting time deciding what to do next.
 
-Last reviewed: `2026-05-06`
+Last reviewed: `2026-05-29`
 
 ## Active Sprint Context
-- Current visible sprint from GitHub notifications: `2026-05-04` to `2026-05-10`
-- Sprint issue pattern is working: weekly issues are being created and kept visible in the repo inbox
-- Current interpretation: this repo is the control center, while execution work should spill into the priority public repos listed below
-- First objective for the active sprint: complete one clean `docs` improvement in `Shubhu1134`, then move immediately into `WebDevelopment` and `Advance-java-code-`
+- Current visible sprint window: `2026-05-25` to `2026-05-31`
+- Sprint issue pattern is working: weekly issues are generated on Monday at `09:00 IST`
+- This repo is the control center; execution work should spill into the priority public repos listed below
+- First objective for this sprint: merge one clean profile or automation improvement in `Shubhu1134`, then move immediately into `WebDevelopment` and `Advance-java-code-`
+- Automation focus: keep workflow dates, issue templates, PR templates, and local Markdown links healthy
 
 ## Current Sprint Execution Order
 1. `Shubhu1134`
@@ -30,6 +31,13 @@ Last reviewed: `2026-05-06`
 - `1` external PR opened
 - `2` useful review or discussion contributions logged in the weekly sprint issue
 - `1` discussion answer
+
+## Current Repo Health Checklist
+- Profile README has clear positioning, project signals, and execution links
+- Weekly sprint workflow runs in UTC while targeting `09:00 IST`
+- Local agent artifacts are ignored by Git
+- PRs use issue-linked, small-scope templates
+- Repo health workflow verifies required docs and local Markdown links
 
 ## Snapshot as of 2026-03-18
 - Source: public GitHub repository data for `Shubhu1134`
@@ -143,6 +151,13 @@ Use Tier 3 when you want to create foundational content. Use Tier 1 and Tier 2 w
 5. Merge and close the linked issue.
 6. Log the result in the weekly sprint issue.
 7. If time remains, leave one useful review or discussion reply.
+
+## Weekly Review Prompts
+- Which PRs merged and which issues closed?
+- Which repo produced the strongest public proof of work?
+- What blocked the next PR from shipping faster?
+- Which reusable note, checklist, or workflow should be extracted next?
+- What is the first issue to open next Monday?
 
 ## Success Definition for the Next 14 Days
 - `8-10` merged public PRs
