@@ -1,33 +1,17 @@
-## Summary
-- What changed:
-- Why:
+## What changed and why
 
-## Linked Issue
-- Closes #
-
-## Type of Change
-- [ ] feat
-- [ ] fix
-- [ ] docs
-- [ ] chore
-- [ ] ci
-
-## Checklist
-- [ ] Small focused PR
-- [ ] Tested locally
-- [ ] README/docs updated if needed
-- [ ] No secrets or sensitive data
-- [ ] Local Markdown links checked when docs changed
-- [ ] Rollback is clear for workflow/template changes
-- [ ] Ready to merge
+Describe the correction or improvement and how it helps profile visitors or maintainers.
 
 ## Validation
-- Commands run:
-- Screenshots or notes, if relevant:
 
-## Rollback
-- Revert plan:
+List the checks performed, including a Markdown preview or link checks where relevant.
 
-## Achievement Intent
-- [ ] Counts toward weekly sprint activity
-- [ ] Public contribution visibility considered
+## Checklist
+
+- [ ] Project descriptions match the current public repositories
+- [ ] Affected links and Markdown formatting checked
+- [ ] No credentials or private project information included
+- [ ] Commit author and committer checked
+- [ ] Repository health check passes
+
+Related issue, if applicable:

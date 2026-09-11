@@ -1,131 +1,33 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=190&color=gradient&customColorList=12,20,24,30&text=Shubham%20Lodhi&fontAlignY=35&desc=Java%20%7C%20MERN%20%7C%20AI%2FML%20%7C%20Production%20Systems&descAlignY=56&animation=fadeIn" alt="Header banner" />
-</p>
+# Shubham Lodhi
 
-<p align="center">
-  <a href="https://github.com/Shubhu1134">
-    <img src="https://komarev.com/ghpvc/?username=Shubhu1134&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
-  </a>
-  <a href="https://github.com/Shubhu1134?tab=followers">
-    <img src="https://img.shields.io/github/followers/Shubhu1134?label=Followers&style=flat&logo=github" alt="GitHub followers" />
-  </a>
-  <a href="https://github.com/Shubhu1134?tab=repositories">
-    <img src="https://img.shields.io/github/stars/Shubhu1134?affiliations=OWNER&label=Total%20Stars&style=flat&logo=github" alt="Total stars" />
-  </a>
-  <a href="https://github.com/Shubhu1134/Shubhu1134/actions/workflows/weekly-achievement-sprint.yml">
-    <img src="https://github.com/Shubhu1134/Shubhu1134/actions/workflows/weekly-achievement-sprint.yml/badge.svg" alt="Weekly sprint workflow status" />
-  </a>
-  <a href="https://github.com/Shubhu1134/Shubhu1134/actions/workflows/repo-health.yml">
-    <img src="https://github.com/Shubhu1134/Shubhu1134/actions/workflows/repo-health.yml/badge.svg" alt="Repo health workflow status" />
-  </a>
-</p>
+**Full-stack developer · Java & JavaScript**
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=850&center=true&vCenter=true&width=720&lines=Full+Stack+Developer;AI+Agents+%2B+Automation+Builder;Java+%2B+MERN+%2B+DevOps;Turning+ideas+into+working+products" alt="Typing intro" />
-</p>
+[GitHub](https://github.com/Shubhu1134) · [LinkedIn](https://www.linkedin.com/in/shubham-lodhi-99a597216/) · [Email](mailto:shubhu1134@gmail.com)
 
-## About
+I build web applications and explore the backend systems that support them. My work spans Java, React, Node.js, and databases, with an ongoing focus on deployment and automation.
 
-I build practical software with a bias toward shipping: full-stack web apps, Java learning systems, AI automation, and DevOps workflows that can be explained, deployed, and improved.
+## Selected work
 
-- Full-stack developer focused on Java, MERN, AI agents, and automation workflows
-- Building production-ready systems with clean architecture and reliable deployment habits
-- Improving in public through small issues, focused PRs, reviews, and weekly execution loops
-- Strengthening depth in LLM engineering, scalable backend design, CI/CD, and self-hosted infrastructure
-
-## Current Focus
-
-| Area | What I am building | Proof of work |
+| Project | Overview | Technologies |
 | --- | --- | --- |
-| Full-stack apps | MERN applications with practical user flows | `WebDevelopment`, `skill-swap`, `food-delivery-app` |
-| Java depth | Structured examples, notes, and team practice | `Advance-java-code-`, `Team-Practice-Java-Projects` |
-| DevOps | Docker, VPS, CI/CD, deployment checklists | `docker-deploye-architecture`, `Devops-Foundations`, `ci-cd-demo` |
-| AI and automation | Prompt systems, agents, and workflow automation | `prompt-engineering`, profile execution system |
+| [Food Delivery App](https://github.com/Shubhu1134/food-delivery-app) | A full-stack food delivery application with separate client and server code. | React, Node.js, Express, MongoDB |
+| [Java Practice & Projects](https://github.com/Shubhu1134/Advance-java-code-) | Examples, notes, and projects covering JDBC, servlets, Hibernate, and Spring. | Java, JDBC, Hibernate, Spring |
+| [Web Development](https://github.com/Shubhu1134/WebDevelopment) | A collection of web projects, exercises, and frontend learning notes. | HTML, CSS, JavaScript |
 
-## Tech Stack
+[Browse my repositories →](https://github.com/Shubhu1134?tab=repositories)
 
-<p>
-  <img src="https://skillicons.dev/icons?i=java,js,ts,react,nodejs,express,mongodb,python,tensorflow,docker,git,github,vscode" alt="Tech stack icons" />
-</p>
+## Technical focus
 
-## DevOps and Infrastructure
+- **Web development:** React interfaces, Node.js and Express backends, and MongoDB.
+- **Java:** Database access, backend frameworks, and practical application development.
+- **Learning:** Docker, CI/CD, self-hosted infrastructure, and AI-assisted automation.
 
-<p>
-  <img src="https://img.shields.io/badge/VPS-Self%20Hosted-0f766e?style=for-the-badge&logo=linux&logoColor=white" alt="VPS self hosted" />
-  <img src="https://img.shields.io/badge/Docker-Containers-0ea5e9?style=for-the-badge&logo=docker&logoColor=white" alt="Docker containers" />
-  <img src="https://img.shields.io/badge/CI%2FCD-Automated-2563eb?style=for-the-badge&logo=githubactions&logoColor=white" alt="CI CD automated" />
-  <img src="https://img.shields.io/badge/Deployments-Production%20Ready-f59e0b?style=for-the-badge&logo=nginx&logoColor=white" alt="Production deployments" />
-</p>
+My [Docker & deployment learning roadmap](https://github.com/Shubhu1134/docker-deploye-architecture) outlines the infrastructure topics I am working through.
 
-## Featured Projects
+## Working approach
 
-<p align="center">
-  <a href="https://github.com/Shubhu1134/WebDevelopment">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Shubhu1134&repo=WebDevelopment&theme=tokyonight&hide_border=true" alt="WebDevelopment repo card" />
-  </a>
-  <a href="https://github.com/Shubhu1134/Advance-java-code-">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Shubhu1134&repo=Advance-java-code-&theme=tokyonight&hide_border=true" alt="Advance java repo card" />
-  </a>
-</p>
+I value readable code, clear setup instructions, focused changes, and verification before release. I use this GitHub profile to share projects and document what I learn as I build.
 
-<p align="center">
-  <a href="https://github.com/Shubhu1134/docker-deploye-architecture">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Shubhu1134&repo=docker-deploye-architecture&theme=tokyonight&hide_border=true" alt="Docker deploy architecture repo card" />
-  </a>
-  <a href="https://github.com/Shubhu1134/skill-swap">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Shubhu1134&repo=skill-swap&theme=tokyonight&hide_border=true" alt="Skill swap repo card" />
-  </a>
-</p>
+## Get in touch
 
-<p align="center">
-  <a href="https://github.com/Shubhu1134/food-delivery-app">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Shubhu1134&repo=food-delivery-app&theme=tokyonight&hide_border=true" alt="Food delivery app repo card" />
-  </a>
-  <a href="https://github.com/Shubhu1134/Team-Practice-Java-Projects">
-    <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Shubhu1134&repo=Team-Practice-Java-Projects&theme=tokyonight&hide_border=true" alt="Team practice java projects repo card" />
-  </a>
-</p>
-
-## GitHub Analytics
-
-<p>
-  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Shubhu1134&show_icons=true&theme=tokyonight&rank_icon=github&hide_border=true" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Shubhu1134&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
-</p>
-
-<p>
-  <img src="https://streak-stats.demolab.com?user=Shubhu1134&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-</p>
-
-## 2026 Build Goals
-
-- Ship at least 5 complete portfolio-level projects
-- Contribute consistently to open-source repositories
-- Improve DevOps, CI/CD, and cloud deployment depth
-- Publish technical notes for Java, MERN, and AI engineering
-
-## Execution System
-
-This profile repo is the control center for weekly public shipping. It keeps the plan, sprint loop, PR standard, and automation visible.
-
-| System | Purpose |
-| --- | --- |
-| [ACHIEVEMENT_EXECUTION_BOARD.md](./ACHIEVEMENT_EXECUTION_BOARD.md) | Priority board, repo order, and achievement strategy |
-| [ACHIEVEMENT_SPRINT.md](./ACHIEVEMENT_SPRINT.md) | Weekly sprint playbook and scorecard |
-| [REPO_ACCELERATION_PLAN.md](./REPO_ACCELERATION_PLAN.md) | Public repo priority map |
-| [CONTRIBUTING.md](./CONTRIBUTING.md) | Issue, branch, PR, and review workflow |
-| [SECURITY.md](./SECURITY.md) | Security reporting and repository safety rules |
-| [weekly-achievement-sprint.yml](./.github/workflows/weekly-achievement-sprint.yml) | Monday sprint issue generator |
-| [repo-health.yml](./.github/workflows/repo-health.yml) | Lightweight repo consistency check |
-
-## Operating Loop
-
-- Monday: use the weekly sprint issue to set repo order and first actions
-- Midweek: land one `docs`, one `fix`, and one `feat`, `chore`, or `ci` PR
-- End of week: log merged PRs, reviews, external contribution progress, and the next sprint seed
-- Active work lives in the sprint issue queue: [Repository Issues](https://github.com/Shubhu1134/Shubhu1134/issues)
-
-## Connect
-
-- LinkedIn: [shubham-lodhi-99a597216](https://www.linkedin.com/in/shubham-lodhi-99a597216/)
-- Email: [shubhu1134@gmail.com](mailto:shubhu1134@gmail.com)
+For project discussions and collaboration, reach me at [shubhu1134@gmail.com](mailto:shubhu1134@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/shubham-lodhi-99a597216/).
